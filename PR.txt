@@ -1,0 +1,8 @@
+Exercicio 1
+
+JSON Treatment
+O ficheiro maps.json foi dividido manualmente em 2 outros ficheiros json, um com as cidades outro com as ligaçoes entre estas.
+Estes dois json files foram importados para a mongoDB utilizando o comando mongoimport como no seguinte exemplo:
+    mongoimport --db teste --collection cidades --file cidades.json --jsonArray
+
+Executar a aplicação - npm start
