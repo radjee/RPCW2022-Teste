@@ -1,4 +1,4 @@
-Exercicio 1
+Exercicio 1 - Porta 4000
 
 JSON Treatment
 O ficheiro maps.json foi dividido manualmente em 2 outros ficheiros json, um com as cidades outro com as ligaçoes entre estas.
@@ -6,3 +6,68 @@ Estes dois json files foram importados para a mongoDB utilizando o comando mongo
     mongoimport --db teste --collection cidades --file cidades.json --jsonArray
 
 Executar a aplicação - npm start
+
+Exercicio 2 - Porta 4000
+token - eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyOTRlY2VhNmI1ZDVjMjQ3NmNmMDhiMSIsImxldmVsIjozLjUsImVudGlkYWRlIjoiZW50X0EzRVMiLCJlbWFpbCI6InJwY3cyMDIyQGdtYWlsLmNvbSIsImlhdCI6MTY1NDAxNzYwOSwiZXhwIjoxNjU0MDQ2NDA5fQ.jhkUQwMPir_ZAQfcUZSXyey0GDJPD0DS3Qx54imFMQmQeTDCg34Oqtzx61pYp0EJ3P9ynDnuBWU_SJyfd4WtWAg_dWnomaasRGlVcxiIdwck4p31lMvteC4U4ovvMh7pL5nXkcBwFR0FoBCLCCFoHV6nEZ3NV9lytOgEa9XpwIIRKcJcF8Qn6sxdSIDcbKKmc9CW37suHOTDfC5meri6OSxyEP270Wq7IuqyECzQeSqqnZylG4uNDaXyc0bOK1GKRwHSYoVaxydeFsL91L56-CzjmGgtJVTF4SZSTD5IPhAUDNCx1NQRF1KzECXj3gqtXl2zjuQ40zp-QC7yQfV4Gw
+
+Quantos processos (nível 3) e quais são (obtem uma lista em JSON; podes concatenar sublistas invocando várias queries), pertencentes à descendência da classe 750?
+ - 18 processos
+http://jcr.di.uminho.pt/m51-clav#c750.10.001
+http://jcr.di.uminho.pt/m51-clav#c750.10.002
+http://jcr.di.uminho.pt/m51-clav#c750.10.300
+http://jcr.di.uminho.pt/m51-clav#c750.10.600
+http://jcr.di.uminho.pt/m51-clav#c750.10.601
+http://jcr.di.uminho.pt/m51-clav#c750.10.602
+http://jcr.di.uminho.pt/m51-clav#c750.20.001
+http://jcr.di.uminho.pt/m51-clav#c750.20.002
+http://jcr.di.uminho.pt/m51-clav#c750.20.003
+http://jcr.di.uminho.pt/m51-clav#c750.20.300
+http://jcr.di.uminho.pt/m51-clav#c750.20.301
+http://jcr.di.uminho.pt/m51-clav#c750.20.600
+http://jcr.di.uminho.pt/m51-clav#c750.20.601
+http://jcr.di.uminho.pt/m51-clav#c750.30.001
+http://jcr.di.uminho.pt/m51-clav#c750.30.300
+http://jcr.di.uminho.pt/m51-clav#c750.30.600
+http://jcr.di.uminho.pt/m51-clav#c750.30.601
+http://jcr.di.uminho.pt/m51-clav#c750.30.602
+
+Quantas entidades estão catalogadas?
+ - 
+
+Quantos processos (classes de nível 3) se encontram na descendência de 750.20?
+ - 7 processos
+
+http://jcr.di.uminho.pt/m51-clav#c750.20.001
+http://jcr.di.uminho.pt/m51-clav#c750.20.002
+http://jcr.di.uminho.pt/m51-clav#c750.20.003
+http://jcr.di.uminho.pt/m51-clav#c750.20.300
+http://jcr.di.uminho.pt/m51-clav#c750.20.301
+http://jcr.di.uminho.pt/m51-clav#c750.20.600
+http://jcr.di.uminho.pt/m51-clav#c750.20.601
+
+Quantos processos (classes de nível 3) estão relacionados com 750.20.600
+- 24 Processos
+http://jcr.di.uminho.pt/m51-clav#c750.30.300
+http://jcr.di.uminho.pt/m51-clav#c750.30.600
+http://jcr.di.uminho.pt/m51-clav#c250.20.400
+http://jcr.di.uminho.pt/m51-clav#c250.20.605
+http://jcr.di.uminho.pt/m51-clav#c250.20.800
+http://jcr.di.uminho.pt/m51-clav#c750.10.600
+http://jcr.di.uminho.pt/m51-clav#c750.10.602
+http://jcr.di.uminho.pt/m51-clav#c750.20.300
+http://jcr.di.uminho.pt/m51-clav#c750.30.300
+http://jcr.di.uminho.pt/m51-clav#c750.30.600
+http://jcr.di.uminho.pt/m51-clav#c800.10.604
+http://jcr.di.uminho.pt/m51-clav#c800.10.605
+http://jcr.di.uminho.pt/m51-clav#c150.20.101
+http://jcr.di.uminho.pt/m51-clav#c150.20.300
+http://jcr.di.uminho.pt/m51-clav#c250.20.001
+http://jcr.di.uminho.pt/m51-clav#c750.20.301
+http://jcr.di.uminho.pt/m51-clav#c750.30.601
+http://jcr.di.uminho.pt/m51-clav#c450.10.441
+http://jcr.di.uminho.pt/m51-clav#c450.10.444
+http://jcr.di.uminho.pt/m51-clav#c750.10.002
+http://jcr.di.uminho.pt/m51-clav#c750.20.001
+http://jcr.di.uminho.pt/m51-clav#c750.20.002
+http://jcr.di.uminho.pt/m51-clav#c750.20.300
+http://jcr.di.uminho.pt/m51-clav#c500.10.301

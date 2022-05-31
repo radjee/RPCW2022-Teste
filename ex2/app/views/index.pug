@@ -1,0 +1,20 @@
+extends layout
+
+block content
+  h1= title
+  p= description
+
+  a(href='/classes') Classes
+  
+  a(href='/termos_de_indice') Termos de índice
+
+  table(class="w3-table-all")
+    tr 
+      th Código 
+      th Título
+
+    each item in list
+      tr 
+        td 
+          a(href='/'+item.codigo)= item.codigo 
+        td= item.titulo
